@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap");
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #060604;
+    font-family: "Archivo Black", sans-serif;
+}
+
+/* Norwester Font Credit: https://jamiewilson.github.io/norwester/ */
+@font-face {
+    font-family: "Norwester";
+    src: url("norwester.otf");
+}
+
+h1 {
+    color: #ccbca4;
+}
+
+.banner {
+    background-color: #ccbca4;
+    text-align: center;
+    padding: 15px;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 55vh;
+}
+
+.center2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    width: 100%;
+}
+
+.norwester {
+    font-family: "Norwester", sans-serif !important;
+}
+
+h1.norwester {
+    font-size: 160px;
+}
+
+.embeddable-buttondown-form {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    box-sizing: border-box;
+    max-width: 384px;
+    padding: 16px;
+    color: #ccbca4;
+    font: 14px/1.4;
+}
+
+.embeddable-buttondown-form input[type="email"],
+.embeddable-buttondown-form input[type="text"],
+.embeddable-buttondown-form select {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 6px 8px;
+    border: 1px solid #d4d4d8;
+    border-radius: 4px;
+    background: #fff;
+    color: #060604;
+    font: inherit;
+}
+
+.embeddable-buttondown-form fieldset {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.embeddable-buttondown-form input[type="submit"] {
+    padding: 8px 12px;
+    border: 0;
+    border-radius: 4px;
+    background: #ccbca4;
+    color: #060604;
+    font: inherit;
+    cursor: pointer;
+}
+
+.embeddable-buttondown-form p {
+    margin: 0;
+    font-size: 12px;
+    text-align: center;
+}
+
+.embeddable-buttondown-form p a {
+    color: #ccbca4;
+}
